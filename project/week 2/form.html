@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Опросник</title>
+    </head>
+    <body>
+        <h1>Опросник для обладателей котиков</h1>
+    <form>
+        <p>Кличка питомца:</p>
+        <input type="text" name="nickname"/>
+        <p>Имя и контакты владельца:</p><br/> Имя: <input type="text" name="firstname"/><br/>
+        <p>Адрес:</p><input type="text"/>
+        <p>Порода питомца:</p>
+        <select>
+            <option value="first option">>Длинношёрстные</option>
+            <option value="second option">>Полудлинношёрстные</option>
+            <option value="third option">>Короткошёрстные</option>
+            <option value="fourth option">>Сиамо-Ориентальная короткошёрстные</option>
+        </select>
+        <label>Чем питается:</label>
+        <input type="checkbox" name="food" value="1"/>Сухой корм<br/>
+        <input type="checkbox" name="food" value="2"/>Влажный корм<br/>
+        <input type="checkbox" name="food" value="3"/>натуральный корм<br/>
+        <p>Самец или самка</p>
+        <input type="radio" name="s" value="m"/> Самец<br/>
+        <input type="radio" name="s" value="f"/>Самка<br/>
+        <p>Комментарий владельца</p>
+        <textarea rows="3" cols="40"></textarea>
+        <P>Приложите фото питомца</P>
+        <input type="file"/>
+        <button>Сохранить</button><br/>        
+        <input type="date">
+        <select>
+            <option>Москва</option>
+            <option selected>Минск</option>
+        </select>
+        
+    </form>
+</body></html>
